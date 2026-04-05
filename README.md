@@ -73,11 +73,4 @@ Open http://localhost:3000 ✅
 
 ---
 
-## 🚀 Improvements
 
-- File upload for product images (instead of URL)
-- Sort products by price, name, or date
-- Bulk delete / select all
-- Export catalog to CSV or JSON
-- Real backend (e.g. Supabase) for multi-device sync
-- Unit tests with Vitest + Testing Library

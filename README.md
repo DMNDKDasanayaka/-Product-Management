@@ -39,7 +39,6 @@ src/
     └── product.ts
 ```
 
-> ⚠️ **Delete `tailwind.config.ts`** — Next.js 16 uses Tailwind v4, which needs no config file.
 
 **4. Run**
 ```bash
@@ -62,15 +61,4 @@ Open http://localhost:3000 ✅
 | localStorage | Data persistence (no backend) |
 
 ---
-
-## 💡 Assumptions
-
-- **Images are URL-based** — file upload is optional per spec; URLs keep the app fully frontend.
-- **Categories are predefined** — (Electronics, Clothing, Food, Books, Home, Sports, Other) for consistent filtering and color badges.
-- **Price stored as a number** — enables accurate stats (total value, average price).
-- **Seed data on first visit** — 3 demo products load if localStorage is empty, so the UI isn't blank.
-- **Dark mode via CSS variables** — Tailwind v4 dropped the `dark:` class config, so dark mode is applied by toggling CSS custom properties on `:root`.
-
----
-
 
